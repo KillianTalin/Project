@@ -13,3 +13,14 @@ title: Le Wagon - Middleman
     </p>
   </div>
 </div>
+
+<div class="container text-center">
+  <h1>Aujourd'hui nous sommes le <%= Date.today %></h1>
+</div>
+
+<ul>
+  <% %w(Middleman ERB SCSS).each do |tech| %>
+    <li>Nous jouons avec <%= tech %>
+    </li>
+  <% end %>
+</ul>

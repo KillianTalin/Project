@@ -12,6 +12,11 @@
     <%= favicon_tag 'images/favicon.png' %>
   </head>
   <body>
+
+    <%= partial "layouts/navbar" %>
+
     <%= yield %>
+
+    <!-- TODO inject footer -->
   </body>
 </html>
